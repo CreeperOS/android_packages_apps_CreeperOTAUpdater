@@ -75,7 +75,7 @@ public  class LoadUpdateManifest extends AsyncTask<Void, Void, Void> implements 
 
             URL url;
             if (DEBUGGING) {
-            	url = new URL("https://romhut.com/roms/aosp-jf/ota.xml");
+            	url = new URL("https://CreeperOS.github.io/ROMs/");
             } else {
             	url = new URL(Utils.getProp("ro.ota.manifest").trim());
             }
